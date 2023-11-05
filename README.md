@@ -45,12 +45,12 @@ Example npm script:
 Syntax:
 
 ```ts
-picodel(...string[])
+picodel(...paths: string[])
 ```
 
 Example:
 
-```ts
+```js
 import picodel from 'picodel';
 
 await picodel('.cache', 'public');
